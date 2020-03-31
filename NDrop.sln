@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDrop", "NDrop\NDrop.csproj", "{1965A297-83F9-41A6-81D6-00369771186B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NDrop_Test", "NDrop_Test\NDrop_Test.csproj", "{BC73D6AA-7702-4E15-A58B-565D22C0EEFE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1965A297-83F9-41A6-81D6-00369771186B} = {1965A297-83F9-41A6-81D6-00369771186B}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1965A297-83F9-41A6-81D6-00369771186B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1965A297-83F9-41A6-81D6-00369771186B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1965A297-83F9-41A6-81D6-00369771186B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1965A297-83F9-41A6-81D6-00369771186B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC73D6AA-7702-4E15-A58B-565D22C0EEFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC73D6AA-7702-4E15-A58B-565D22C0EEFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC73D6AA-7702-4E15-A58B-565D22C0EEFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC73D6AA-7702-4E15-A58B-565D22C0EEFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2DE1577C-C6C5-4D81-817A-F457E116C574}
+	EndGlobalSection
+EndGlobal
