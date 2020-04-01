@@ -5,9 +5,14 @@
     <Authors>Dropil</Authors>
     <Description>A .NET library for use with Dropil Chain and other Cosmos SDK based blockchains.</Description>
     <Copyright>Copyright © 2020</Copyright>
-    <PackageProjectUrl>https://github.com/dropil/NDrop</PackageProjectUrl>
+    <PackageProjectUrl>https://dropilchain.com</PackageProjectUrl>
     <PackageTags>Dropil Chain Cosmos Hub SDK</PackageTags>
     <PackageIconUrl>https://dropil.com/wp-content/uploads/2020/03/Dropil-Avatar-with-text@2x.png</PackageIconUrl>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/dropil/NDrop</RepositoryUrl>
+    <Version>1.0.1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +20,13 @@
     <PackageReference Include="NBitcoin" Version="5.0.22" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="RestSharp" Version="106.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

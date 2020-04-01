@@ -12,15 +12,18 @@ namespace NDrop
         public string raw_log;
         public List<Log> logs;
 
-        public bool IsSuccess()
+        public bool IsSuccess
         {
-            if (logs == null || logs.Count == 0) return false;
-            return logs[0].success;
+            get
+            {
+                if (logs == null || logs.Count == 0) return false;
+                return logs[0].success;
+            }            
         }
 
         public Error GetError()
         {
-            if (IsSuccess()) return new Error() { code = 0, message = "success" };
+            if (IsSuccess) return new Error() { code = 0, message = "success" };
 
             var jObj = JObject.Parse(raw_log);
 
